@@ -15,7 +15,8 @@ exports.up = function(knex) {
         
         tbl
           .string('description', 255)
-          .notNullable();
+          .notNullable()
+          .unique();
         
         tbl
           .string('notes');
