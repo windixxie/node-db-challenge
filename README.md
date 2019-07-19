@@ -38,7 +38,7 @@ Demonstrate your understanding of this week's concepts by answering the followin
 
 1. Why do tables need a `primary key`?
 
-    Primary keys are needed as reference points for data that is why they are immutable.
+    Primary keys are needed as reference points for data that is why they are immutable. Primary keys guarantee that every row has a unique identifier associated with it no matter how many of the other columns contain data that's common to other rows. Identifiers aren't reused when a row is deleted, so this ensures that when we ask the database to perform an operation on a specific row, we don't operate on the wrong row by mistake.
 
 1. What is the name given to a table column that references the primary key on another table.
 
@@ -46,7 +46,7 @@ Demonstrate your understanding of this week's concepts by answering the followin
 
 1. What do we need in order to have a _many to many_ relationship between two tables.
 
-  A "joining" table that lists links of the primary key from one table to the primary key of a another.
+  A "joining" table that lists links of the primary key from one table to the primary key of a another.(And brain power)
 
 ## Project Set Up
 
